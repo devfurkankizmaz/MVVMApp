@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		0ACECF9D2A854F900070BBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECF9C2A854F900070BBE1 /* AppDelegate.swift */; };
 		0ACECF9F2A854F900070BBE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECF9E2A854F900070BBE1 /* SceneDelegate.swift */; };
-		0ACECFA12A854F900070BBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFA02A854F900070BBE1 /* ViewController.swift */; };
-		0ACECFA42A854F900070BBE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFA22A854F900070BBE1 /* Main.storyboard */; };
 		0ACECFA62A854F920070BBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFA52A854F920070BBE1 /* Assets.xcassets */; };
 		0ACECFA92A854F920070BBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFA72A854F920070BBE1 /* LaunchScreen.storyboard */; };
+		0ACECFB72A8550C90070BBE1 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFB62A8550C90070BBE1 /* MovieViewController.swift */; };
+		0ACECFBA2A8552E80070BBE1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFB92A8552E80070BBE1 /* Roboto-Bold.ttf */; };
+		0ACECFBC2A8552F20070BBE1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFBB2A8552F20070BBE1 /* Roboto-Medium.ttf */; };
+		0ACECFBE2A8553080070BBE1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFBD2A8553080070BBE1 /* Roboto-Regular.ttf */; };
+		0ACECFC02A85537E0070BBE1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFBF2A85537E0070BBE1 /* Fonts.swift */; };
+		0ACECFC22A8553E10070BBE1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFC12A8553E10070BBE1 /* Extensions.swift */; };
+		0ACECFC42A8555B60070BBE1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFC32A8555B60070BBE1 /* Movie.swift */; };
+		0ACECFC62A8556310070BBE1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFC52A8556310070BBE1 /* APIService.swift */; };
+		0ACECFC82A85563D0070BBE1 /* Content.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ACECFC72A85563D0070BBE1 /* Content.json */; };
+		0ACECFCA2A855A150070BBE1 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFC92A855A140070BBE1 /* MovieViewModel.swift */; };
+		0ACECFCD2A855A750070BBE1 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACECFCC2A855A750070BBE1 /* MovieCollectionViewCell.swift */; };
+		0ACECFD02A855BAF0070BBE1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0ACECFCF2A855BAF0070BBE1 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ACECF992A854F900070BBE1 /* MyMVVMApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMVVMApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACECF9C2A854F900070BBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ACECF9E2A854F900070BBE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0ACECFA02A854F900070BBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0ACECFA32A854F900070BBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ACECFA52A854F920070BBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ACECFA82A854F920070BBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ACECFAA2A854F920070BBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ACECFB62A8550C90070BBE1 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		0ACECFB92A8552E80070BBE1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		0ACECFBB2A8552F20070BBE1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0ACECFBD2A8553080070BBE1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0ACECFBF2A85537E0070BBE1 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0ACECFC12A8553E10070BBE1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0ACECFC32A8555B60070BBE1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0ACECFC52A8556310070BBE1 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		0ACECFC72A85563D0070BBE1 /* Content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Content.json; sourceTree = "<group>"; };
+		0ACECFC92A855A140070BBE1 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		0ACECFCC2A855A750070BBE1 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACECFD02A855BAF0070BBE1 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A546D252A862176008CAA1C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFCC2A855A750070BBE1 /* MovieCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		0ACECF902A854F900070BBE1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +84,80 @@
 		0ACECF9B2A854F900070BBE1 /* MyMVVMApp */ = {
 			isa = PBXGroup;
 			children = (
+				0ACECFB52A85501C0070BBE1 /* Helpers */,
+				0ACECFB42A8550170070BBE1 /* Services */,
+				0ACECFB32A8550120070BBE1 /* Models */,
+				0ACECFB22A85500B0070BBE1 /* ViewModels */,
+				0ACECFB12A8550060070BBE1 /* Views */,
+				0ACECFB02A854FB70070BBE1 /* Resources */,
 				0ACECF9C2A854F900070BBE1 /* AppDelegate.swift */,
 				0ACECF9E2A854F900070BBE1 /* SceneDelegate.swift */,
-				0ACECFA02A854F900070BBE1 /* ViewController.swift */,
-				0ACECFA22A854F900070BBE1 /* Main.storyboard */,
-				0ACECFA52A854F920070BBE1 /* Assets.xcassets */,
 				0ACECFA72A854F920070BBE1 /* LaunchScreen.storyboard */,
 				0ACECFAA2A854F920070BBE1 /* Info.plist */,
 			);
 			path = MyMVVMApp;
+			sourceTree = "<group>";
+		};
+		0ACECFB02A854FB70070BBE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFB82A8552DA0070BBE1 /* Fonts */,
+				0ACECFA52A854F920070BBE1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0ACECFB12A8550060070BBE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A546D252A862176008CAA1C /* Cells */,
+				0ACECFB62A8550C90070BBE1 /* MovieViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0ACECFB22A85500B0070BBE1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFC92A855A140070BBE1 /* MovieViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0ACECFB32A8550120070BBE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFC32A8555B60070BBE1 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0ACECFB42A8550170070BBE1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFC52A8556310070BBE1 /* APIService.swift */,
+				0ACECFC72A85563D0070BBE1 /* Content.json */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0ACECFB52A85501C0070BBE1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFBF2A85537E0070BBE1 /* Fonts.swift */,
+				0ACECFC12A8553E10070BBE1 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0ACECFB82A8552DA0070BBE1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0ACECFBB2A8552F20070BBE1 /* Roboto-Medium.ttf */,
+				0ACECFBD2A8553080070BBE1 /* Roboto-Regular.ttf */,
+				0ACECFB92A8552E80070BBE1 /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +176,9 @@
 			dependencies = (
 			);
 			name = MyMVVMApp;
+			packageProductDependencies = (
+				0ACECFCF2A855BAF0070BBE1 /* SnapKit */,
+			);
 			productName = MyMVVMApp;
 			productReference = 0ACECF992A854F900070BBE1 /* MyMVVMApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +207,9 @@
 				Base,
 			);
 			mainGroup = 0ACECF902A854F900070BBE1;
+			packageReferences = (
+				0ACECFCE2A855BAF0070BBE1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0ACECF9A2A854F900070BBE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACECFBC2A8552F20070BBE1 /* Roboto-Medium.ttf in Resources */,
 				0ACECFA92A854F920070BBE1 /* LaunchScreen.storyboard in Resources */,
+				0ACECFBE2A8553080070BBE1 /* Roboto-Regular.ttf in Resources */,
 				0ACECFA62A854F920070BBE1 /* Assets.xcassets in Resources */,
-				0ACECFA42A854F900070BBE1 /* Main.storyboard in Resources */,
+				0ACECFBA2A8552E80070BBE1 /* Roboto-Bold.ttf in Resources */,
+				0ACECFC82A85563D0070BBE1 /* Content.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACECFA12A854F900070BBE1 /* ViewController.swift in Sources */,
+				0ACECFC22A8553E10070BBE1 /* Extensions.swift in Sources */,
+				0ACECFC62A8556310070BBE1 /* APIService.swift in Sources */,
+				0ACECFC02A85537E0070BBE1 /* Fonts.swift in Sources */,
+				0ACECFCA2A855A150070BBE1 /* MovieViewModel.swift in Sources */,
+				0ACECFC42A8555B60070BBE1 /* Movie.swift in Sources */,
+				0ACECFB72A8550C90070BBE1 /* MovieViewController.swift in Sources */,
+				0ACECFCD2A855A750070BBE1 /* MovieCollectionViewCell.swift in Sources */,
 				0ACECF9D2A854F900070BBE1 /* AppDelegate.swift in Sources */,
 				0ACECF9F2A854F900070BBE1 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +255,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0ACECFA22A854F900070BBE1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0ACECFA32A854F900070BBE1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0ACECFA72A854F920070BBE1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +392,6 @@
 				INFOPLIST_FILE = MyMVVMApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +419,6 @@
 				INFOPLIST_FILE = MyMVVMApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ACECFCE2A855BAF0070BBE1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0ACECFCF2A855BAF0070BBE1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ACECFCE2A855BAF0070BBE1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ACECF912A854F900070BBE1 /* Project object */;
 }

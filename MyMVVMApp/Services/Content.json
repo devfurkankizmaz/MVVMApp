@@ -1,0 +1,58 @@
+{
+    "movies": [
+        {
+            "title": "Inception",
+            "releaseYear": 2010,
+            "genre": "Science Fiction",
+            "director": "Christopher Nolan",
+            "posterURL": "inception_ver4"
+        },
+        {
+            "title": "The Matrix",
+            "releaseYear": 1999,
+            "genre": "Science Fiction",
+            "director": "Lana Wachowski",
+            "posterURL": "matrix_ver1"
+        },
+        {
+            "title": "The Dark Knight",
+            "releaseYear": 2008,
+            "genre": "Action",
+            "director": "Christopher Nolan"
+        },
+        {
+            "title": "Pulp Fiction",
+            "releaseYear": 1994,
+            "genre": "Crime",
+            "director": "Quentin Tarantino",
+            "posterURL": "pulp_fiction"
+        },
+        {
+            "title": "Forrest Gump",
+            "releaseYear": 1994,
+            "genre": "Drama",
+            "director": "Robert Zemeckis",
+            "posterURL": "forrest_gump.jpg"
+        },
+        {
+            "title": "The Shawshank Redemption",
+            "releaseYear": 1994,
+            "genre": "Drama",
+            "director": "Frank Darabont"
+        },
+        {
+            "title": "Fight Club",
+            "releaseYear": 1999,
+            "genre": "Drama",
+            "director": "David Fincher",
+            "posterURL": "fight_club_ver4"
+        },
+        {
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "releaseYear": 2001,
+            "genre": "Fantasy",
+            "director": "Peter Jackson",
+            "posterURL": "lord_of_the_rings_the_fellowship_of_the_ring_ver1"
+        }
+    ]
+}
